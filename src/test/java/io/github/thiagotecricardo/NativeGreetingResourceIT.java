@@ -1,4 +1,4 @@
-package io.github.thiagotecricardo;
+package io.github.andrearao;
 
 import io.quarkus.test.junit.NativeImageTest;
 

@@ -1,10 +1,10 @@
-package io.github.thiagotecricardo.quarkussocial.rest;
+package io.github.andrearao.quarkussocial.rest;
 
 
-import io.github.thiagotecricardo.quarkussocial.domain.model.User;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.UserRepository;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.CreateUserRequest;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.ResponseError;
+import io.github.andrearao.quarkussocial.domain.model.User;
+import io.github.andrearao.quarkussocial.domain.repository.UserRepository;
+import io.github.andrearao.quarkussocial.rest.dto.CreateUserRequest;
+import io.github.andrearao.quarkussocial.rest.dto.ResponseError;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import org.h2.constraint.Constraint;
 

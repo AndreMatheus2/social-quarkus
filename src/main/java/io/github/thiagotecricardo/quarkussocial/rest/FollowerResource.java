@@ -1,11 +1,11 @@
-package io.github.thiagotecricardo.quarkussocial.rest;
+package io.github.andrearao.quarkussocial.rest;
 
-import io.github.thiagotecricardo.quarkussocial.domain.model.Follower;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.FollowerRepository;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.UserRepository;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.FollowerPerUserResponse;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.FollowerRequest;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.FollowerResponse;
+import io.github.andrearao.quarkussocial.domain.model.Follower;
+import io.github.andrearao.quarkussocial.domain.repository.FollowerRepository;
+import io.github.andrearao.quarkussocial.domain.repository.UserRepository;
+import io.github.andrearao.quarkussocial.rest.dto.FollowerPerUserResponse;
+import io.github.andrearao.quarkussocial.rest.dto.FollowerRequest;
+import io.github.andrearao.quarkussocial.rest.dto.FollowerResponse;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;

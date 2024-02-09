@@ -1,6 +1,6 @@
-package io.github.thiagotecricardo.quarkussocial.rest.dto;
+package io.github.andrearao.quarkussocial.rest.dto;
 
-import io.github.thiagotecricardo.quarkussocial.domain.model.Post;
+import io.github.andrearao.quarkussocial.domain.model.Post;
 import lombok.Data;
 
 import java.time.LocalDateTime;

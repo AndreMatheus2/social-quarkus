@@ -1,12 +1,12 @@
-package io.github.thiagotecricardo.quarkussocial.rest;
+package io.github.andrearao.quarkussocial.rest;
 
-import io.github.thiagotecricardo.quarkussocial.domain.model.Post;
-import io.github.thiagotecricardo.quarkussocial.domain.model.User;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.FollowerRepository;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.PostRepository;
-import io.github.thiagotecricardo.quarkussocial.domain.repository.UserRepository;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.CreatePostRequest;
-import io.github.thiagotecricardo.quarkussocial.rest.dto.PostResponse;
+import io.github.andrearao.quarkussocial.domain.model.Post;
+import io.github.andrearao.quarkussocial.domain.model.User;
+import io.github.andrearao.quarkussocial.domain.repository.FollowerRepository;
+import io.github.andrearao.quarkussocial.domain.repository.PostRepository;
+import io.github.andrearao.quarkussocial.domain.repository.UserRepository;
+import io.github.andrearao.quarkussocial.rest.dto.CreatePostRequest;
+import io.github.andrearao.quarkussocial.rest.dto.PostResponse;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import io.quarkus.panache.common.Sort;
 

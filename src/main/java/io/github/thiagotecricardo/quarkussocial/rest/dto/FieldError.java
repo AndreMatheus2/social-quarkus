@@ -1,4 +1,4 @@
-package io.github.thiagotecricardo.quarkussocial.rest.dto;
+package io.github.andrearao.quarkussocial.rest.dto;
 
 public class FieldError {
 
